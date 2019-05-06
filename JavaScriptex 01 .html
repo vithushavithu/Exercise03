@@ -1,0 +1,105 @@
+<html>
+<head>
+<title> JavaScript 01</title>
+</head>
+<body>
+  <br>
+
+<p> 01]
+ <script>
+// QUESTION 1:
+var num = 5;
+ document.write(num ** 2);
+</script>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<script>
+var a = 4;
+ document.write(Math.pow(a,2));
+</script>
+</p>
+
+<p> 02]
+<script>
+ //  QUESTION 2
+var num1 = 3;
+var num2 = 9;
+function addNum() {
+  return num1 + num2;
+};
+document.write("The addition of the two numbers is" + " " + addNum() + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+
+function multiNum() {
+  return num1 * num2;
+};
+document.write("The multiplication of the two numbers is" + " " + multiNum() + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+
+function subtractNum() {
+  return num1 - num2;
+};
+document.write("The subtraction of the two numbers is" + " " + subtractNum() + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+
+function divideNum() {
+  return num1 / num2;
+};
+document.write("The division of the two numbers is" + " " + divideNum() + "<br>" );
+</script>
+</p>
+
+
+<p> 03] Alert
+<script>
+ // QUESTION 3:
+window.alert('Hello World');
+</script>
+
+<script>
+function myFunction() {
+  alert("Hello World!");
+}
+</script>
+<button type="button" onclick="myFunction()">Print</button>
+</p>
+
+
+<p> 04]
+<script>
+ // QUESTION 4:
+var Volume = Volume(1, 2, 3);
+document.write(Volume);
+
+function Volume(length,width,height) {
+  return length * width * height;
+}
+</script>
+</p>
+
+
+<p> 05]
+<script>
+ // QUESTION 5:
+var person = {
+  fistName:"Nimal",
+  lastName:"Raj",
+  age:15,
+  city:"Kandy"
+};
+document.write("My name is" + " " + person.fistName + " " + person.lastName + "." + "I'm" + " " + person.age + " " + "years old." + " " + "I live in" + " " + person.city +".");
+</script>
+</p>
+
+
+<p> 06]
+<script>
+ // QUESTION 6:
+ var course = {
+   courseName: "BIT",
+   courseFee: "Rs 150 000",
+   StartDate: "12.06.2018",
+   center: "Our Office"
+ };
+ document.write("courseName:" + " " + course.courseName + "<br>"+ "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +"courseFee:" + " " + course.courseFee + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + "StartDate:" + " " + course.StartDate + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +  "center:" + " " + course.center + ".");
+</script>
+</p>
+
+</body>
+</html>
